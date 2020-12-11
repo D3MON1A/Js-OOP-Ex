@@ -1,20 +1,16 @@
 class Counter{
 	constructor(){
-        //initialization of the counter variable
-        this.counter = 0;
+		//initialization of the counter variable
 		
 	}
 	increaseOne(){
-        //increase the value in one
-         return this.counter += 1
+		//increase the value in one
 	}
 	decreaseOne(){
-        //decrease the value in one
-        return this.counter -= 1
+		//decrease the value in one
 	}
 	getValue(){
-        //return the value
-        return this.counter
+		//return the value
 	}	
 }
 
